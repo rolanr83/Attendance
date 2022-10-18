@@ -63,9 +63,6 @@
     </form>
 
 <?php } ?>
-<br/>
-        <a href="viewrecords.php" class="btn btn-info">Back to List</a>
-<br>
 <br>
 <br>
 <br>
