@@ -9,8 +9,8 @@
     $dsn =  "mysql:host=$host;dbname=$db;charset=$charset";
 
     try{
-        $pdo =new PDO($dsn, $user, $pass);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PRO::ERRMODE_EXCEPTION);
+        $pdo = new PDO($dsn, $user, $pass);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         //echo 'Hello Database';
     } catch(PDOException $e){
         //echo "<h1 class='text-danger'>No Datebase Found</h1>";
