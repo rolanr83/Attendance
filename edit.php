@@ -62,13 +62,10 @@
             <div id="phoneHelp" class="form-text">We'll never share your number with anyone else.</div>
         </div> 
         
-        <button type="submit" name="submit" class="btn btn-success btn-block">Save Changes</button>
-        </form>
-        
-        <br/>
         <a href="viewrecords.php" class="btn btn-info">Back to List</a>
-    
-<br>
+        <button type="submit" name="submit" class="btn btn-success">Save Changes</button>
+        </form>
+
         <?php } ?>
     <br>
     <br>
