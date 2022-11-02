@@ -6,6 +6,7 @@
     $pass = '';
     $charset = 'utf8mb4';
 
+    
     //Remote Database Connection
     // $host = '';
     // $db = '';
