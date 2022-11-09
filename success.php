@@ -34,7 +34,6 @@
     }
 ?>
 
-    <!-- <h1 class="text-center text-success">You Have Been Registered!</h1> -->
 
     <!-- This prints out values that were passed to the action page using method="get" -->
     <!-- <div class="card" style="width: 18rem;">
@@ -58,7 +57,7 @@
             <h5 class="card-title">
                 <?php echo $_POST['firstname'] . ' ' . $_POST['lastname'];  ?>
             </h5>
-            <h6 class="card-subtitle mb-3 text-muted">
+            <h6 class="card-subtitle mb-2 text-muted">
                 <?php echo $specialtyName['name'];  ?>    
             </h6>
             <p class="card-text">

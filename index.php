@@ -59,10 +59,9 @@
             <input type="file" accept="image/*" class="custom-file-input" id="avatar" name="avatar" >
             <label class="custom-file-label" for="avatar">Choose File</label>
             <small id="avatar" class="form-text text-danger">File Upload is Optional</small>
-
         </div>
     
-    <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
+      <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
     </form>
 <br>
 <br>
