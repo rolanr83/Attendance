@@ -1,18 +1,18 @@
 <?php
     // Development Connection
-    $host = '127.0.0.1';
-    $db = 'attendance_rolan';
-    $user = 'root';
-    $pass = '';
-    $charset = 'utf8mb4';
+    // $host = '127.0.0.1';
+    // $db = 'attendance_rolan';
+    // $user = 'root';
+    // $pass = '';
+    // $charset = 'utf8mb4';
 
     
     // Azure Database Connection
-    // $host = 'applied-web.mysql.database.azure.com';
-    // $db = 'attendance_rolan';
-    // $user = 'appliedweb_user@applied-web';
-    // $pass = 'P@ssword1';
-    // $charset = 'utf8mb4';
+    $host = 'applied-web.mysql.database.azure.com';
+    $db = 'attendance_rolan';
+    $user = 'appliedweb_user@applied-web';
+    $pass = 'P@ssword1';
+    $charset = 'utf8mb4';
 
 
     $dsn =  "mysql:host=$host;dbname=$db;charset=$charset";
