@@ -7,7 +7,7 @@
     // $charset = 'utf8mb4';
 
     
-    //Remote Database Connection
+    // Azure Database Connection
     $host = 'applied-web.mysql.database.azure.com';
     $db = 'attendance_rolan';
     $user = 'appliedweb_user@applied-web';
