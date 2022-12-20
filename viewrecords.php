@@ -1,5 +1,5 @@
 <?php
-    $title = 'View Records'; 
+    $title = 'Patients Records'; 
 
     require_once 'includes/header.php'; 
     require_once 'includes/auth_check.php';
@@ -15,7 +15,7 @@
             <th>#</th>
             <th>First Name</th>
             <th>Last Name</th>
-            <th>Specialty</th>
+            <th>Specialty & Doctors Name</th>
             <th>Actions</th>
         </tr>
         <?php while($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>

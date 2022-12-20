@@ -38,6 +38,12 @@
                 <label for="dob" class="form-label">Date of Birth</label>
                 <input type="text" class="form-control" value="<?php echo $attendee['dateofbirth'] ?>" id="dob" name="dob">
             </div>
+
+            <div class="mb-3">
+        <label for="address" class="form-label">Home Address</label>
+        <input type="text" class="form-control" id="address" name="address"> 
+        <div id="phoneHelp" class="form-text">We'll never share your address with anyone else.</div>
+    </div> 
       
         <div class="mb-3">
             <label for="specialty" class="form-label">Area of Expertise</label>

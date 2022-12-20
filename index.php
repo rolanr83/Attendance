@@ -7,15 +7,8 @@
     $results = $crud->getSpecialties();
 
 ?>
-     <!-- 
-        - First name
-        - Last Name
-        - Date of Birth (Use DatePicker)
-        - Specialty (Database Admin, Software Developer, Web Administrator, Other)
-        - Email Address
-        - Contact Number
-     -->
-<h1 class="text-center">Registration for IT Conference </h1>
+     
+<h1 class="text-center">Online Doctor Appointment Booking System </h1>
     
 <form method="post" action="success.php" enctype="multipart/form-data">
         
@@ -33,14 +26,21 @@
             <label for="dob" class="form-label">Date of Birth</label>
             <input type="text" class="form-control" id="dob" name="dob">
         </div>
+
+        <div class="mb-3">
+        <label for="haddress" class="form-label">Home Address</label>
+        <input type="text" class="form-control" id="haddress" name="haddress"> 
+        <div id="haddress" class="form-text">We'll never share your address with anyone else.</div>
+    </div> 
   
     <div class="mb-3">
-        <label for="specialty" class="form-label">Area of Expertise</label>
+        <label for="specialty" class="form-label">Medical Doctors</label>
         <select class="form-control" aria-label="specialty" name="specialty">
             <?php while($r = $results->fetch(PDO::FETCH_ASSOC)) {?>
                    <option value="<?php echo $r['specialty_id'] ?>"><?php echo $r['name']; ?></option>
                 <?php }?>
             </select>
+            <div id="emailHelp" class="form-text">Choose your doctor.</div>
     </div>   
 
     <div class="mb-3">

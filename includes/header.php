@@ -21,14 +21,14 @@ include_once 'includes/session.php'?>
   <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.php">IT Conference</a>
+      <a class="navbar-brand" href="index.php">Doctor Appointment</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mr-auto">
         <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="viewrecords.php">View Attendees</a>
+        <!-- <a class="nav-link" href="viewrecords.php">View Attendees</a> -->
       </div>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
